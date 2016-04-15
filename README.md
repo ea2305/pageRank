@@ -1,4 +1,4 @@
-### Page Rank with References 
+# Page Rank with References 
 Rank page with link references and
 
 ## Requirements
@@ -6,16 +6,15 @@ Rank page with link references and
 
 ## Team : Data Struct _3
 
-### ReadPage
-## Methods
+## ReadPage
 
-# Constructor
+### Constructor
 * Get file PATH
 
-# countsLinks : return Information Object
+### countsLinks : return Information Object
 * get PATH of file to analize, if you don't set call the constructor PATH
 
-# setFile : get string with PATH
+### setFile : get string with PATH
 * set Path of file
 
 ### Information : kind a of structure
@@ -24,11 +23,11 @@ Rank page with link references and
 * get number of self references
 * get list with links
 
-# getReferences :  return Integer
+### getReferences :  return Integer
 * return number of references
 
-# getSelfReferences : return Integer
+### getSelfReferences : return Integer
 * return nubmer of self references
 
-# getLinks : return List
+### getLinks : return List
 * return list with all link matched
